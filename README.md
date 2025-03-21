@@ -1,8 +1,10 @@
 # IoT_Arduino_Beehive
 
 ### Introduction
-- This project is designed for the Arduino MKR Wifi 1010 and AWS, but the code and procedure can be modified to fit your hardware and cloud requirements. It connects multiple temperature and humidity sensors, a real-time clock, and a vibration sensor, collects data from them, and uploads it to the IoT cloud on a repeating timer. Sensors can be added to each box in a hive, allowing for efficient data collection for your beehive.
+- When managing beehives, multiple factors can be measured to assess hive health. This device connects temperature and humidity sensors, a real-time clock, and a vibration sensor, collects data, and uploads it to the AWS IoT cloud on a repeating timer. The device can be mounted outside the hive with sensors wired inside. Data sent to AWS can be stored in a database for analysis or integrated into an app.
 
+- This project is designed for the Arduino MKR Wifi 1010 and AWS, but the code and procedure can be modified to fit your hardware and cloud requirements.
+  
 ### Arduino Library Requirements
 - To program the Arduino, download the Arduino IDE software from the Arduino website. Open the software and install these libraries: "hx711," "DHT Sensor Library," "RTClib," "ArduinoBearSSL," "ArduinoECCX08," "ArduinoMqttClient," "WiFiNINA," and "ArduinoJson." If prompted to install extra libraries, install those too.
 
